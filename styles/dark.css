@@ -9,5 +9,16 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --font-family: "IBM Plex mono", "Lucida Sans Typewriter", monospace;
   --color-bg: #000028;
+  --color-accent: #FF0070;
+  --color-border: #FF0070;
+  --color-title-hero: #DB00FF;
+  --color-title: #000028;
+  --color-title-section: #FF0070;
+  --color-text: #F1B2CE;
+  --color-rec: #FF0070;
+  --border-hover: 1px solid rgba(255, 0, 112, 0.4);
+  --background-image: url(../images/cover-image-dark.png);
+  transition-duration: var(--transition-duration);
 }

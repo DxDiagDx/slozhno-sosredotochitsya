@@ -16,12 +16,10 @@
   --color-title: #353430;
   --color-title-section: #353430;
   --color-text: #353430;
+  --color-rec: #FFF1F7;
   --border-hover: 1px solid rgba(50, 49, 45, 0.4);
   --background-image: url(../images/cover-image-light.png);
-}
-
-.page.theme_light .header__rec {
-  display: none;
+  transition-duration: var(--transition-duration);
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,7 +31,9 @@
     --color-title: #353430;
     --color-title-section: #353430;
     --color-text: #353430;
+    --color-rec: #FFF1F7;
     --border-hover: 1px solid rgba(50, 49, 45, 0.4);
     --background-image: url(../images/cover-image-light.png);
+    transition-duration: var(--transition-duration);
   }
 }
