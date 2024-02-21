@@ -120,12 +120,14 @@
 
 .header__title {
   align-self: center;
+  margin-top: 10px;
 }
 
 .header__description {
   height: fit-content;
   align-self: end;
   justify-self: right;
+  margin-bottom: -5px;
 }
 
 .main {
@@ -221,13 +223,19 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
+  .header__theme-menu {
+    margin-top: 37px;
+  }
+
   .header__title {
-    margin: -20px;
+    margin-left: -20px;
+    margin-top: 10px;
   }
 
   .header__description {
     width: 50%;
-    align-self: center;
+    align-self: end;
+    margin-bottom: 30px;
   }
   
   .main {
@@ -241,6 +249,7 @@
   }
 
   .section__content {
+    display: grid;
     grid-column: 2 / span 2;
   }
 
@@ -305,6 +314,10 @@
 
   .decorated-hero {
     line-height: calc(129.53/157);
+  }
+
+  .header__title {
+    margin-bottom: -70px;
   }
 
   .section {
